@@ -1,0 +1,42 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+body{
+  text-align: center;
+  background:#040;
+}
+h1,caption{
+    color: #ff0;
+}
+table{
+    margin: auto;
+}
+.yellow{
+    color: #00f;
+    font-size: 20px;
+}
+
+table,td,th{
+    border: 1px solid #ff0;
+    border-collapse: collapse;
+}
+
+
+td{
+    text-align: left;
+    color: #000;
+}
+thead{
+    background: #000;
+    color: #fff;
+    font-size: 25px;
+}
+tbody{
+    background: #999;
+}
+#cap2{
+    margin-top: 50px;
+}

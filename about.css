@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(0,0,0);
+}
+
+.cover{
+    border: 1px solid mediumslateblue;
+  margin: auto;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to right,rgb(50,10,0),black);
+    
+}
+
+h2{
+    color: #040;
+    text-transform: capitalize;
+    text-shadow: red 20px;
+}
+
+.content{
+    border:1px solid mediumorchid;
+    border-radius: 4px;
+    text-align: center;
+    margin: 40px;
+}
+
+
+
+#me{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+#back{
+    font-size: 25px;
+}
+button{
+    border: 1px solid #040;
+    border-radius: 5px;
+    background: #040;
+    color: #fff;
+    padding: 3px;
+}

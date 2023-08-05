@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(30deg,#999,#040);
+}
+.center{
+    text-align: center;
+}
+.portfolio ul li{
+  list-style: none;
+
+}
+.portfolio{
+    background: rgb(0,100,0);
+    margin-top: -550px;
+    transition: all 2s linear;
+    width: 100%;
+    border-radius: 8px;
+  
+}
+
+li a{
+    text-decoration: none;
+ 
+   margin-right: 5px;
+ 
+    color: #fff;
+    padding: 5px;
+   margin-bottom: 50px;
+    display: block;
+    font-size: 30px;
+}
+
+#check{
+   display: none;
+}
+#mark{
+    color: #fff;
+    background:  rgb(0,0,0);
+    font-size: 35px;
+    border: 1px solid #999;
+    border-radius: 8px;
+}
+
+#back{
+    font-size: 25px;
+}
+
+#check:checked ~ .portfolio{
+    margin-top: 20px;
+
+}
+
+
+

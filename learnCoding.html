@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingGanster</title>
+    <link rel="stylesheet" href="learnCoding.css">
+</head>
+<body onload="show()">
+    <h1>Wecome to my coding School</h1>
+    <p>Please fill the form below</p>
+    <form action="coding.php" method="post" target="_blank">
+        <label for="fname">First Name:</label>
+        <br>
+        <input type="text" name="firstName" id="fname" placeholder="enter name" class="nameBox" pattern="[A-Za-z]{3,}" required title="only letters">
+        <br>
+        <label for="lname">Last Name:</label>
+        <br>
+        <input type="text" name="lastName" id="lname" placeholder="enter name" class="nameBox"  pattern="[A-Za-z]{3,}" required title="only letters">
+        <br>
+        <label for="mobile">Phone Number:</label>
+        <br>
+        <input type="tel" name="phoneNumber" id="mobile" placeholder="mobile number" class="nameBox" pattern="[0-9]{10}" required title="must be 10 digits">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="enter email here" class="nameBox">
+        <br>
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" name="gender" id="male" value="male">male
+        <br>
+        <input type="radio" name="gender" id="female" value="female">Female
+        <br>
+        <label for="Clanguages">languages to learn:</label>
+        <select name="languages" id="Clanguages">
+           <optgroup label="web development">
+            <option value="HTML">HTML</option>
+           <option value="CSS">CSS</option>
+           <option value="JS">Javascript</option>
+           </optgroup>
+           <optgroup label="Coding">
+            <option value="Python">Python</option>
+            <option value="Python">JAVA</option>
+            <option value="Python">Golang</option>
+            <option value="Python">C</option>
+            <option value="Python">C++</option>
+           </optgroup>
+        </select>
+        <div class="btns">
+            <input type="submit" value="submit">
+            <input type="reset" value="Clear data">
+        </div>
+    </form>
+    <script>
+       function show(){
+       let a = prompt('please welcome , what is your name?');
+        alert('Thank you' + ' ' + a + ' ' + 'for your time you can procede');
+       }
+    </script>
+</body>
+</html>
